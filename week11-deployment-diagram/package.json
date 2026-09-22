@@ -1,0 +1,24 @@
+{
+  "name": "week11-deployment-diagram",
+  "version": "1.0.0",
+  "description": "Praktikum Minggu 11 - Deployment Diagram Sistem Perpustakaan",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:api": "node server.js",
+    "start:ai": "node ai-service.js"
+  },
+  "keywords": [
+    "deployment-diagram",
+    "nodejs",
+    "api",
+    "ai-service"
+  ],
+  "author": "Program Studi Teknologi Informasi UMY",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.19.0",
+    "dotenv": "^17.4.2"
+  }
+}
